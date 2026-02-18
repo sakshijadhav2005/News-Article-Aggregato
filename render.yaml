@@ -1,5 +1,4 @@
 services:
-  # Backend API
   - type: web
     name: news-aggregator-api
     env: python
@@ -14,17 +13,3 @@ services:
         value: 8000
       - key: CORS_ORIGINS
         value: "*"
-
-  # Frontend
-  - type: web
-    name: news-aggregator-frontend
-    env: node
-    region: oregon
-    plan: free
-    buildCommand: "cd frontend && npm install && npm run build"
-    startCommand: "cd frontend && npm run preview -- --host 0.0.0.0 --port $PORT"
-    envVars:
-      - key: NODE_VERSION
-        value: 18.0.0
-      - key: PORT
-        value: 3000
