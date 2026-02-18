@@ -252,9 +252,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 👨‍💻 Author
 
-Your Name - [@yourhandle](https://twitter.com/yourhandle)
+Your Name - [@SakshiJadhav]
 
-Project Link: [https://github.com/YOUR_USERNAME/news-article-aggregator](https://github.com/YOUR_USERNAME/news-article-aggregator)
+
 
 ## 🙏 Acknowledgments
 
